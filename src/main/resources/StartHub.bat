@@ -1,0 +1,1 @@
+java -jar src/main/resources/selenium-server-standalone.jar -role hub -hubConfig src/main/resources/hubConfig.json -debug

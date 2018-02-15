@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" thread-count="2" parallel="tests" verbose="1" >
+    <test name="Search" >
+        <classes>
+            <class name="tests.SearchAndAddToCartTest" />
+        </classes>
+    </test>
+</suite>
