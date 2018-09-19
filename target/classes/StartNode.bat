@@ -1,0 +1,1 @@
+Java -Dwebdriver.chrome.driver="src\main\resources\chromedriver.exe" -Dwebdriver.gecko.driver="src\main\resources\geckodriver.exe" -jar src/main/resources/selenium-server-standalone.jar -role node -nodeConfig src/main/resources/nodeConfig.json -debug

@@ -1,0 +1,6 @@
+tests\tests.class
+tests\SearchAndAddToCartTest.class
+base\Base.class
+base\WaitHelper.class
+pages\SearchAndAddToCartPage.class
+testSearch.class

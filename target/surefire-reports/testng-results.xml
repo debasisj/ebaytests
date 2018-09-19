@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="53661" started-at="2018-02-15T06:38:45Z" finished-at="2018-02-15T06:39:39Z">
+    <groups>
+    </groups>
+    <test name="Search" duration-ms="53661" started-at="2018-02-15T06:38:45Z" finished-at="2018-02-15T06:39:39Z">
+      <class name="tests.SearchAndAddToCartTest">
+        <test-method status="PASS" signature="startHubNode()[pri:0, instance:tests.SearchAndAddToCartTest@79698539]" name="startHubNode" is-config="true" duration-ms="10022" started-at="2018-02-15T17:38:35Z" finished-at="2018-02-15T17:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startHubNode -->
+        <test-method status="PASS" signature="testCart(java.lang.String)[pri:0, instance:tests.SearchAndAddToCartTest@79698539]" name="testCart" duration-ms="44359" started-at="2018-02-15T17:38:45Z" data-provider="browsersToTest" finished-at="2018-02-15T17:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="testCart(java.lang.String)[pri:0, instance:tests.SearchAndAddToCartTest@79698539]" name="testCart" duration-ms="52504" started-at="2018-02-15T17:38:45Z" data-provider="browsersToTest" finished-at="2018-02-15T17:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchAndAddToCartTest@79698539]" name="tearDown" is-config="true" duration-ms="350" started-at="2018-02-15T17:39:30Z" finished-at="2018-02-15T17:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchAndAddToCartTest@79698539]" name="tearDown" is-config="true" duration-ms="1119" started-at="2018-02-15T17:39:38Z" finished-at="2018-02-15T17:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchAndAddToCartTest -->
+    </test> <!-- Search -->
+  </suite> <!-- Regression -->
+</testng-results>
